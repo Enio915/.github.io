@@ -25,30 +25,30 @@
                 <th>Data</th>
             </tr>
             <tr>
-                <td><span id="price0"></span></td>
-                <td><span id="date0"></span></td>
+                <td id="date0"></td>
+                <td id="price0"></td>
             </tr>
             <tr>
-                <td><span id="price1"></span></td>
-                <td><span id="date1"></span></td>
+                <td id="date1"></td>
+                <td id="price1"></td>
             </tr>
             <tr>
-                <td><span id="price2"></span></td>
-                <td><span id="date2"></span></td>
+                <td id="date2"></td>
+                <td id="price2"></td>
             </tr>
             <tr>
-                <td><span id="price3"></span></td>
-                <td><span id="date3"></span></td>
+                <td id="date3"></td>
+                <td id="price3"></td>
             </tr>
             <tr>
-                <td><span id="price4"></span></td>
-                <td><span id="date4"></span></td>
+                <td id="date4"></td>
+                <td id="price4"></td>
             </tr>
         </table>
 
                 <script type="text/javascript">
             // wprowadz adres do przegladarki i zobacz, co takiego sie wyswietli
-            fetch('http://api.nbp.pl/api/cenyzlota/last/5?format=json')
+            fetch('https://api.nbp.pl/api/cenyzlota/last/5?format=json')
                 .then(response => response.json())
                 .then(response => {
                     // tutaj obslugujemy dane (parametr 'response') z serwera (json)
