@@ -1,0 +1,9 @@
+#table, #date0, #date1, #date2, #date3, #date4, #price0, #price1, #price2, #price3, #price4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#tab {
+    text-align: center;
+}
